@@ -16,7 +16,7 @@ export const Layout2 = () => {
             {/* TOP  Start*/}
             <div className="basis-full rounded-xl border border-dashed p-10  bg-gradient-to-r from-metal-500 to-black   flex flex-wrap  gap-9 justify-center items-center ">
                 <Card2 title='HTML' description='Projects Done using HTML and foundational web technologies.' />
-                <Card2 title='CSS' description='Projects showcasing advanced layouts and responsive designs using CSS.' image='src/images/CSS.png' />
+                <Card2 title='CSS' description='Projects showcasing advanced layouts and responsive designs using CSS.' image='/src/images/CSS.png' />
                 <Card2 title='JavaScript' description='Interactive and dynamic web projects built using vanilla JavaScript.' image='src/images/JavaScript.png' />
                 <Card2 title='Node.js' description='Server-side applications built using Node.js and JavaScript.' image='src/images/Nodejs.png' />
                 <Card2 title='React.js' description='Front-end applications created with React, focusing on UI components and state management.' image='src/images/React.png' />
