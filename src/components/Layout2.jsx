@@ -22,7 +22,7 @@ export const Layout2 = () => {
                 <Card2 title='React.js' description='Front-end applications created with React, focusing on UI components and state management.' image='src/images/React.png' />
                 <Card2 title='Python' description='Scripts and web applications built with Python, including automation and data processing.' image='src/images/Python.png' />
                 <Card2 title='SQL' description='Database management and query operations using SQL for efficient data storage.' image='src/images/SQL.png' />
-                <Card2 title='C++' description='High-performance applications and system-level programming done with C++.' image='https://drive.google.com/file/d/1cs0tUg1-S3N1AALKy0ZecDr-22rOiY9m/view?usp=drive_link />
+                <Card2 title='C++' description='High-performance applications and system-level programming done with C++.' image='https://drive.google.com/file/d/1cs0tUg1-S3N1AALKy0ZecDr-22rOiY9m/view?usp=drive_link' />
 
 
             </div>
