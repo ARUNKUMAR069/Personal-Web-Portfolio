@@ -1,0 +1,51 @@
+
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.customshadow
+{
+
+box-shadow: -13px 12px 15px 8px black;
+
+
+}
+
+/* HexagonPortfolio.css */
+/* HexagonPortfolio.css */
+.hexagon {
+    width: 100%; /* 100% of the parent */
+    height: 100%; /* 100% of the parent */
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+
+.hexagon:hover {
+    border-color: #6b46c1; /* Change border color on hover */
+    animation: pulse 1.5s infinite; /* Add pulse animation */
+}
+
+@keyframes pulse {
+    0% {
+        border-color: #6b46c1; /* Starting color */
+        transform: scale(1); /* Starting scale */
+    }
+    50% {
+        border-color: #b794f4; /* Midpoint color */
+        transform: scale(1.05); /* Scale up */
+    }
+    100% {
+        border-color: #6b46c1; /* End color */
+        transform: scale(1); /* Scale back */
+    }
+}
+
+
+
+
+  
